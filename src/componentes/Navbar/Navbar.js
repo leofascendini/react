@@ -16,13 +16,13 @@ const Navbar = (props) => {
         alert("hice click en contact")
     }
 
-
+    
     return (
         <><nav className="navbar">
             <h1 style={{ color: props.colorTitle }}>Title</h1>
             <Button text="Home" colorText="blue" func={handleOnClick} />
-            <Button text="About" colorText="blue" func={handOnClick2} />
-            <Button text="Contact" colorText="blue" func={handOnclick3} />
+            <Button text="Asus" colorText="blue" func={handOnClick2} />
+            <Button text="Msi" colorText="blue" func={handOnclick3} />
             <CartWidget />
         </nav></>
     )

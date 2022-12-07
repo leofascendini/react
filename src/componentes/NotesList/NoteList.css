@@ -1,0 +1,15 @@
+.notelist{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 5px 0px;
+    }
+  
+}
+

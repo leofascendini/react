@@ -1,10 +1,6 @@
 .navbar {
     display: flex;
     justify-content: space-evenly;
-}
-
-.titulo 
-
-.boton {
-    color: red;
+    background-color: grey;
+    width: 100%;
 }
