@@ -15,8 +15,6 @@ const Footer = () => {
                             <i className="bi bi-twitter m-3"></i>
                             <i className="bi bi-linkedin m-3"></i>
                     </ul>
-                    
-
                 </nav>
             </div>
         </footer>

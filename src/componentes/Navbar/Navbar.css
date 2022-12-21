@@ -3,19 +3,29 @@
 .navbar {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    background-color: white;
-    width: 100%;
+    justify-content: space-evenly; 
     margin: 10px;
     font-family: 'Quicksand', sans-serif;
+
+}
+
+.carrito {
+    margin-right: 15px;
 }
 
 .btn {
     font-size: 21px;
 }
 
+
 @media (max-width:763px){
     .navbar{
         flex-direction: column;
+    }
+    .btn{
+        margin-right: 13px;
+    }
+    .carrito {
+        margin-right: 0px;
     }
 }
