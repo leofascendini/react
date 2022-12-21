@@ -1,5 +1,3 @@
-import Note from "./componentes/Note/Note"
-
 const notes = [
     {
       id: '1',
@@ -84,7 +82,7 @@ const notes = [
       descripcion: 'Descripcion de GIGABYTE A5'
     }, 
   ]
-  
+
   export const getNotes = () => {
     return new Promise ((resolve) => {
       setTimeout(() => {
@@ -108,3 +106,4 @@ export const getNoteByCategory = (categoryId) => {
     }, 500)
   }) 
 }
+

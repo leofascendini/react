@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.ItemDetailContainer {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.ItemDetailContainer h2 {
+    margin: 18px;
+}

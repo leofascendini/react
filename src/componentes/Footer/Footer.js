@@ -1,10 +1,10 @@
 import React from "react";
-
+import './Footer.css'
 
 
 const Footer = () => {
     return(
-        <footer className="text-white py-4 bg-dark">
+        <footer className="text-white mt-4 py-4 bg-dark">
             <div className="container">
                 <nav className="row">
                     <ul className='col-12 col-md-3 list-unstyled d-flex '>

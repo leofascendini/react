@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.ItemCounter {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.ItemCounter p b{
+    font-size: 16px;
+    margin: 10px;
+}
+
+.AgregarCarrito {
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.ItemCounter b {
+    margin: 5px;
+}
