@@ -1,11 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 .compraTotal {
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
 }
 
-.compraTotal h2 {
-    display:flex;
-    justify-content: center;
+.total {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.confirmar-pedido {
+    margin-top: 25px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.eliminar {
+    height: 40px;
+    display: flex;
+    font-weight: 600;
     align-items: center;
 }

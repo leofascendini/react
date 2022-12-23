@@ -87,7 +87,7 @@ const notes = [
     return new Promise ((resolve) => {
       setTimeout(() => {
         resolve(notes)
-      }, 500)
+      }, 2000)
     })
 }
 
@@ -95,7 +95,7 @@ export const getNoteById = (id) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(notes.find(object => object.id === id))
-    }, 500);
+    }, 2000);
   })
 }
 
@@ -103,7 +103,7 @@ export const getNoteByCategory = (categoryId) => {
   return new Promise (resolve => {
     setTimeout(() => {
       resolve(notes.filter(object => object.category === categoryId))
-    }, 500)
+    }, 2000)
   }) 
 }
 

@@ -1,6 +1,7 @@
 import ItemCount from "../Counter/ItemCounter";
 import { useContext } from "react";
 import { CartContext } from "../Context/CartContext";
+import './ItemDetail.css'
 
 const ItemDetail = ({id, name, img, description, price, stock}) => {
 
@@ -11,7 +12,7 @@ const ItemDetail = ({id, name, img, description, price, stock}) => {
     }
 
     return (
-        <div>
+        <div className="ItemDetail">
             <h1>{name}</h1>
             <img src={img} alt={name} style={{width: 400}}/>
             <p>{description}</p>

@@ -14,7 +14,10 @@
 }
 
 .btn {
-    font-size: 21px;
+    font-size: 21px; 
+}
+.btn a:hover {
+    color: rgb(255, 0, 0);
 }
 
 

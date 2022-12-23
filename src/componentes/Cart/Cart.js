@@ -19,13 +19,16 @@ const Cart = () => {
                             <img src={Cart.img} alt={Cart.name} style={{width: 150}}/>
                             <p>{Cart.description}</p>
                             <h2>$ {Cart.price}</h2>
-                            <h2>Subtotal: {Cart.price * Cart.quantity}</h2>
-                            <button onClick={() => removeItem(Cart.id)}>Eliminar producto</button>
+                            <h2>$ Subtotal: {Cart.price * Cart.quantity}</h2>
+                            <button className="eliminar" onClick={() => removeItem(Cart.id)}>Eliminar producto</button>
                         </div>
                     )
                 })
             }
-            <h3>Total: $ {total}</h3>
+            <h3 className="total">Total: $ {total}</h3>
+            <div>
+                <button className="confirmar-pedido">Confirmar pedido</button>
+            </div>
         </div>
     )
 }
